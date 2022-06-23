@@ -1,0 +1,22 @@
+---
+title: "Home"
+author: "Zachary Tatom"
+date: '2022-06-23'
+output:
+  rmarkdown::html_document:
+    theme: lumen
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Links
+
+[Contact Zachary Tatom](mailto:tatomz@vcu.edu)
+
+[Online Biosketch](http://zachary-tatom.github.io/biosketch.html)
+
+[GitHub](https://github.com/zacharytatom)
+
+[Twitter](https://twitter.com/zachary_tatom)
