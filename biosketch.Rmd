@@ -20,6 +20,8 @@ library(knitr)
 
 ## Links
 
+- [Contact](mailto:tatomz@vcu.edu)
+
 - [GitHub](https://github.com/zacharytatom)
 
 - [Twitter](https://twitter.com/zachary_tatom)
