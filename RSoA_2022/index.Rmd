@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Background
 
-636 male Diversity Outbred (DO) were exposed to 5 weeks of intermittent ethanol access (IEA) using a three-bottle choice paradigm. DO mice were derived from 8 founder strains displaying high genetic and phenotypic variation, making them suitable for fine genetic mapping (~2-4 Mb). Ethanol consumption data were then used to identify 3 significant and 12 suggestive quantitative trait loci (QTL) for ethanol consumption behaviors.
+Genetic factors have consistently been estimated to contribute to 50% of the risk for alcohol use disorder (AUD), yet identifying specific causal variants involved in the mechanisms by which genes impact alcohol consumption remains a challenge. It has been suggested that complex traits such as alcohol consumption are affected by both variants which cause functional changes to protein structure and variants which change protein abundance through regulation of gene expression; a systems genetics approach which integrates both genetic and transcriptomic data is therefore necessary to capture the full breadth of the genetic architecture of AUD. Our lab has previously exposed 636 male Diversity Outbred (DO) to 5 weeks of intermittent ethanol access (IEA) using a three-bottle choice paradigm. DO mice were derived from 8 founder strains displaying high genetic and phenotypic variation, making them suitable for fine genetic mapping (~2-4 Mb). Ethanol consumption data were then used to identify 3 significant and 12 suggestive quantitative trait loci (QTL) for ethanol consumption behaviors.
 
 ### Methods
 
