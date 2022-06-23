@@ -7,6 +7,11 @@ output:
     theme: lumen
 ---
 
+<style>
+body {
+text-align: justify}
+</style>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE,
                       dev.args = list(png = list(type = "cairo")))
