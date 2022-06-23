@@ -1,0 +1,136 @@
+---
+title: "Biographical Sketch"
+author: "Zachary Tatom"
+date: '2022-06-23'
+output:
+  rmarkdown::html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: lumen
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(tidyverse)
+library(knitr)
+
+```
+
+## Links
+
+[GitHub](https://github.com/zacharytatom)
+
+[Twitter](https://twitter.com/zachary_tatom)
+
+---
+
+## Education and Training
+
+```{r edu_train}
+
+edu_train <- tibble("Institution and Location" = c("**Birmingham-Southern University**, Birmingham, AL",
+                                                   "**Auburn University Montgomery**, Montgomery, AL",
+                                                   "**Virginia Commonwealth University**, Richmond, VA"),
+                    "Degree" = c("",
+                                 "B.S.",
+                                 "PhD"),
+                    "Start Date" = c("08/2009",
+                                     "05/2012",
+                                     "08/2019"),
+                    "Completion Date" = c("05/2012",
+                                          "08/2014",
+                                          "*Ongoing*"),
+                    "Field of Study" = c("Biology",
+                                         "Biology, conc. Microbiology and Public Health",
+                                         "Human and Molecular Genetics, conc. Quantitative Genetics"))
+
+kable(edu_train)
+
+```
+
+---
+
+## Personal Statement
+
+I received my Bachelor’s degree in Biology with a concentration in Microbiology and Public Health from Auburn University Montgomery in 2014.  During my undergraduate education, I was given an opportunity to work independently on a directed research project in microbial genetics, which sparked my initial interest in genetics through a molecular perspective.  My project was part of a research effort into characterizing the role of prodigiosin pigment production of Serratia marcescens in regulation of ATP production by knocking out the pig operon and observing the resulting changes in cell culture growth.  While this experience gave me an interest in pursuing graduate research in genetics, at the time I felt unsure of what direction to take my research.  This project was entirely under the umbrella of microbiology and lacked the public health component of my concentration, and I desired research that felt more directly impactful in the context of public health.
+
+Following graduation from my undergraduate program, I worked for four years at the University of Alabama at Birmingham conducting behavioral health research as part of the Division of Infectious Diseases.  During this time, I worked for several multi-site research studies, primarily focusing on the HIV-positive community and the interactions between health-related behaviors and HIV outcomes, work that I was drawn to because of its meaningful impact on the lives of a highly marginalized community within the Southeast.  The largest study for which I worked, the Center for AIDS Research Network of Integrated Clinical Systems, is a multi-site study integrating several patient-reported assessments alongside various metrics of health pulled from electronic medical records.  Among the assessments included were measures of traits like anxiety and depression (the PHQ-9 instrument), and alcohol consumption (AUDIT-C); these have given me an appreciation for the nuance involved in using a range of definitions to quantify behavioral phenotypes and to make inferences about the relationships between these traits and more readily-defined quantitative traits like viral load.
+
+While I had an interest in genetics as an undergraduate student, my time at UAB shaped my interest in both the challenges of working with complex traits and further developed my interest in the social importance of working with mental health outcomes.  Working for studies involving mental health phenotypes and substance use has given me a keen firsthand understanding of the importance of this field.  As such, my decision to concentrate in quantitative genetics and to work with Dr. Michael Miles during my PhD training felt like a natural extension of these experiences.
+
+---
+
+## Positions and Honors
+
+### Positions and Employment
+
+```{r pos_honors}
+
+pos_employ <- tibble(x = c("2015 - 2017",
+                           "2017 - 2019",
+                           "2019 - *ongoing*",
+                           "2020 - 2020",
+                           "2020 - 2021",
+                           "2020 - *ongoing*"),
+                     y = c("**Researcher II**, University of Alabama Birmingham",
+                           "**Help Desk Technician**, University of Alabama Birmingham",
+                           "**Graduate Research Assistant**, Virginia Commonwealth University",
+                           "**Teaching Assistant**, Data Science I, Virginia Commonwealth University",
+                           "**Data Science Ambassador**, Virginia Commonwealth University",
+                           "**Student Representative**, Department of Human and Molecular Genetics, Virginia Commonwealth University"))
+
+kable(pos_employ, col.names = NULL)
+
+```
+
+### Honors and Awards
+
+```{r hon_award}
+
+hon_award <- tibble(x = c("2021",
+                          "2022",
+                          "2022",
+                          "2022"),
+                    y = c("**Student Merit Award**, Research Society on Alcohol",
+                          "**Student Merit Award**, Research Society on Alcohol",
+                          "**Travel Award**, School of Medicine, Virginia Commonwealth University",
+                          "**Travel Award**, Graduate School, Virginia Commonwealth University"))
+
+kable(hon_award, col.names = NULL)
+
+```
+
+---
+
+## Contributions to Science
+
+### Publications
+Mignogna, K., Z. Tatom, M. Smith, and M.F. Miles. (2022) Mapping Precise Quantitative Trait Loci for Voluntary Ethanol Consumption in Genetically Diverse Mice.  Manuscript in progress.
+
+### Poster Presentations
+
+Tatom, Z., K. Mignogna, L. McLeod, and M.F. Miles. (2021) Correlations and SNP-based heritability estimates of ethanol-drinking and anxiety-like behavioral phenotypes in the diversity outbred mouse.  Central Virginia Society for Neuroscience Virtual Symposium. Virginia Commonwealth University. Richmond, VA.
+
+Tatom, Z., K. Mignogna, and M.F. Miles. (2021) Correlations and SNP-based heritability estimates of ethanol-drinking and anxiety-like behavioral phenotypes in the diversity outbred mouse.  44th Annual Research Society on Alcoholism Scientific Meeting. Research Society on Alcoholism. Austin, TX.
+
+Tatom, Z. and M.F. Miles. (2022) Car8 expression in prefrontal cortex significantly correlates with decreased voluntary ethanol consumption in Diversity Outbred mice. Virginia Commonwealth University Graduate Research Symposium. Virginia Commonwealth University. Richmond, VA.
+
+Tatom, Z. and M. F. Miles. (2022) Car8 identified as candidate gene for voluntary ethanol consumption from transcriptomics analysis of prefrontal cortex in Diversity Outbred mice. Central Virginia Society for Neuroscience Symposium. University of Virginia. Charlottesville, VA.
+
+### Undergraduate Research
+
+I carried out an independent directed research project in the lab of Dr. Pete Haddix at Auburn University Montgomery.  This project was part of an effort to characterize the pigment production of Serratia marcescens and its role in the regulation of ATP synthesis.  Over the course of the summer, I worked with both wild-type and knockout strains of the bacteria to compare cell growth using spectrophotometry and assayed gene expression in knockout strains using bioluminescent markers.  Additionally, I aided in the mentorship of two high school students as part of a hands-on research experience program for students interested in careers in the sciences.
+
+### Professional Research
+
+I worked for a number of behavioral health research studies for the Research and Informatics Services Center under the Division of Infectious Diseases at the University of Alabama at Birmingham.  Among these, I recruited, carried out study visits to collect data, and managed large amounts of data for studies targeted at improving health outcomes for patients living with HIV or Hepatitis C.  These research projects included the Center for AIDS Research Network of Integrated Clinical Systems (CNICS), Alcohol Research Consortium in HIV-Intervention Arm (ARCH-IRA), and Integrating ENGagement and Adherence Goals upon Entry (iENGAGE).  I worked directly with patients and primary investigators to collect behavioral health data including information about anxiety, depression, alcohol and drug abuse, sexual health practices, and quality of life.
+
+### Graduate Rotation Research
+
+I completed three rotation projects during my first year of PhD training at Virginia Commonwealth University.  For the first project, I completed a drinking study in the lab of Dr. Michael Miles comparing ethanol intake in mice treated with glycogen synthase kinase 3b inhibitor tideglusib via different delivery methods including subcutaneous injection and gavage.  For the second project, I helped the lab of Dr. Jill Bettinger to design CRISPR primers to edit alleles in ethanol candidate genes between specific wild-type strains of Caenorhabditis elegans which exhibited differences in ethanol-related phenotypes, namely locomotor activity.  For the third project, I worked with the data science lab under Dr. Timothy York to develop an R Shiny application designed to compare candidate gene lists generated by different studies, identify genes appearing across different lists, and generate graphical representations of the comparisons.
+
+### Graduate Research
+
+My current research focuses on using a novel mouse model for complex traits related to ethanol consumption and anxiety.  My goal is to identify genes and gene expression networks involved in observed phenotypic differences in ethanol consumption and anxiety-like behaviors, as well as to characterize the interactions between these phenotypes.  The insights from this research should allow for a finer understanding of the biological mechanisms underlying both ethanol consumption and anxiety, hopefully providing avenues for research into potential treatment options.

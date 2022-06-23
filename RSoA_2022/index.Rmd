@@ -14,13 +14,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Links
 
-[Contact](mailto:tatomz@vcu.edu)
+[Contact Zachary Tatom](mailto:tatomz@vcu.edu)
+
+[Online Biosketch](http://zachary-tatom.github.io/biosketch.html)
 
 [VCU Alcohol Research Center](https://arc.vcu.edu/)
 
 [Download Poster PDF](2022_RSoA_Poster.pdf)
 
-[Supplemental FIgures](supplemental_figures.html)
+[Supplemental Figures](supplemental_figures.html)
 
 ---
 
