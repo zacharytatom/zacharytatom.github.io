@@ -3,28 +3,13 @@ title: Genetic and transcriptomic analyses in the Diversity Outbred mouse identi
   Car8 as a candidate gene for ethanol consumption
 author: "Zachary Tatom, Michael Miles"
 date: '2022-06-26'
-output:
-  rmarkdown::html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
-    theme: lumen
 ---
-
-<style>
-body {
-text-align: justify}
-</style>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Links
-
-- [Contact Zachary Tatom](mailto:tatomz@vcu.edu)
-
-- [Online Biosketch](http://zacharytatom.github.io/biosketch.html)
 
 - [Download Poster PDF](2022_RSoA_Poster.pdf)
 

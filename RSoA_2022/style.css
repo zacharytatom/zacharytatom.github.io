@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body { 
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Judson', serif;
+    text-align: left;
+}
+
+.navbar-brand {
+    font-family: 'Judson', serif;
+    font-weight: bold;
+}

@@ -1,19 +1,6 @@
 ---
 title: "Biographical Sketch"
-author: "Zachary Tatom"
-date: '2022-06-23'
-output:
-  rmarkdown::html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
-    theme: lumen
 ---
-
-<style>
-body {
-text-align: justify}
-</style>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -22,16 +9,6 @@ library(tidyverse)
 library(knitr)
 
 ```
-
-## Links
-
-- [Contact](mailto:tatomz@vcu.edu)
-
-- [GitHub](https://github.com/zacharytatom)
-
-- [Twitter](https://twitter.com/zachary_tatom)
-
----
 
 ## Education and Training
 
