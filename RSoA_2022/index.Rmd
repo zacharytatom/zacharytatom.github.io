@@ -30,6 +30,8 @@ eQTL analysis identified a single gene with a cis-eQTL with a LOD score greater 
 
 Integrating transcriptomics data from PFC alongside genetic analyses of DO mice allows for prioritization of positional candidate genes as well as identification of new candidate genes for which expression may play an important role in the mechanisms by which genes impact ethanol consumption. In particular, these findings suggest that *Car8* expression may play a key role in regulating progressive ethanol consumption.
 
+---
+
 ## Links
 
 [Contact](mailto:tatomz@vcu.edu)
