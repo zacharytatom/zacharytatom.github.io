@@ -21,9 +21,13 @@ load(file = "Data/supp_figdata.Rdata")
 
 ## Links
 
-[Return to Abstract](index.html)
+- [Return to Abstract](index.html)
+
+- [Download Poster PDF](2022_RSoA_Poster.pdf)
 
 ---
+
+## Supplemental Figures
 
 ![Figure S1.](study_design.png)
 

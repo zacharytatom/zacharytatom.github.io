@@ -5,6 +5,9 @@ author: "Zachary Tatom, Michael Miles"
 date: '2022-06-26'
 output:
   rmarkdown::html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
     theme: lumen
 ---
 
@@ -14,15 +17,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Links
 
-[Contact Zachary Tatom](mailto:tatomz@vcu.edu)
+- [Contact Zachary Tatom](mailto:tatomz@vcu.edu)
 
-[Online Biosketch](http://zacharytatom.github.io/biosketch.html)
+- [Online Biosketch](http://zacharytatom.github.io/biosketch.html)
 
-[VCU Alcohol Research Center](https://arc.vcu.edu/)
+- [Download Poster PDF](2022_RSoA_Poster.pdf)
 
-[Download Poster PDF](2022_RSoA_Poster.pdf)
+- [Supplemental Figures](supplemental_figures.html)
 
-[Supplemental Figures](supplemental_figures.html)
+- [VCU Alcohol Research Center](https://arc.vcu.edu/)
 
 ---
 
@@ -47,5 +50,7 @@ Integrating transcriptomics data from PFC alongside genetic analyses of DO mice 
 *Supported by NIAAA grant P50AA022537.*
 
 ---
+
+## Poster
 
 [![Poster thumbnail](poster.png)](2022_RSoA_Poster.pdf)

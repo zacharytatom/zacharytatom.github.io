@@ -20,9 +20,9 @@ library(knitr)
 
 ## Links
 
-[GitHub](https://github.com/zacharytatom)
+- [GitHub](https://github.com/zacharytatom)
 
-[Twitter](https://twitter.com/zachary_tatom)
+- [Twitter](https://twitter.com/zachary_tatom)
 
 ---
 
