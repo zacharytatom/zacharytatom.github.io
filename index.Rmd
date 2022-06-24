@@ -1,10 +1,17 @@
 ---
-title: "Home"
-author: "Zachary Tatom"
+title: "About Me"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-You're probably in the wrong place -- no worries! Just click one of the links above.
+Welcome!
+
+I am a third-year PhD candidate in Human and Molecular Genetics (and a concentration in Quantitative Genetics) at Virginia Commonwealth University.
+
+My area of interest is in complex behavioral genetics, and my current focus is on the genetics of alcohol consumption using mouse models. I love the challenge of teasing apart the genetic influences behind behavioral phenotypes: how can we identify and prioritize which genes are affecting a behavior and start to understand the mechanisms at work?
+
+In addition to my research, I am also passionate about data science, diversity and inclusion in genetics research, and education.
+
+If you'd like a more formal breakdown of my research work and interests, please check out my [biosketch](biosketch.html). Alternately, if you'd like to get in touch feel free to [email me](mailto:tatomz@vcu.edu).

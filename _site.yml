@@ -1,8 +1,7 @@
 name: "Zachary Tatom"                                
 output_dir: "."
 navbar:
-  title: "Zachary Tatom"                            
-  type: inverse
+  title: "Zachary Tatom"
   right:
     - text: "Email"
       icon: fa-paper-plane
