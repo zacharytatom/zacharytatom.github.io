@@ -8,10 +8,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Welcome!
 
-I am a third-year PhD candidate in Human and Molecular Genetics (and a concentration in Quantitative Genetics) at Virginia Commonwealth University.
+I'm Zachary Tatom, PhD. I am currently a postdoctoral scholar in the [lab of Dr. Abraham Palmer](https://palmerlab.org/) at the University of California San Diego.
 
-My area of interest is in complex behavioral genetics, and my current focus is on the genetics of alcohol consumption using mouse models. I love the challenge of teasing apart the genetic influences behind behavioral phenotypes: how can we identify and prioritize which genes are affecting a behavior and start to understand the mechanisms at work?
+I received my PhD in Human Genetics with a concentration in quantitative genetics from Virginia Commonwealth University in 2024 after studying in the lab of Dr. Michael Miles. For my dissertation, I studied the behavioral genetics of voluntary alcohol consumption in Diversity Outbred mice, with particular emphasis on transcriptomics in the prefrontal cortex and nucleus accumbens. While at VCU, I was also actively involved in both the [Data Science Lab](https://research.vcu.edu/training/data-science-lab/) and [Alcohol Research Center](https://arc.vcu.edu/).
 
-In addition to my research, I am also passionate about data science, diversity and inclusion in genetics research, and education.
-
-If you'd like a more formal breakdown of my research work and interests, please check out my [biosketch](biosketch.html). Alternately, if you'd like to get in touch feel free to [email me](mailto:tatomz@vcu.edu).
+My research interests are in the myriad ways in which genes influence behavior, particularly with regards to mental health and substance abuse. I particularly enjoy the data science and statistics side of genetics research and have spent much of my research time working in R (and, more recently, Python).
