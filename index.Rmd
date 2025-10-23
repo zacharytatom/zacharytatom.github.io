@@ -1,12 +1,10 @@
 ---
-title: "About Me"
+title: "Hey Y'all!"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-Hey y'all!
 
 I'm Zachary Tatom, PhD. I am currently a postdoctoral scholar in the [lab of Dr. Abraham Palmer](https://palmerlab.org/) at the University of California San Diego.
 
